@@ -1,0 +1,8 @@
+05/11/19 - RP
+starting running notes for VGCMD
+just downloaded drivers for 408Ewin's AMD driver from https://www.amd.com/en/support
+	the auto detect program
+now downloading steam and discord
+downloaded steam -- question: should I create a lab steam account? or just use my own. 
+downloaded discord -- I should probably create two lab discord accounts.
+next is to download whatever streaming software they use -- i think it is obs studio.
