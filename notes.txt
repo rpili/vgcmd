@@ -13,8 +13,23 @@ creating accounts on gmail, to make two steam accounts and two discord accounts
 email - cecb408@outlook.com
 discord - cecA#2946
 steam - cecA408 
+zoom - cecb408@outlook.com
 email - cecb408b@outlook.com
 discord - cecB#9373
 steam - cecB408
+zoom - cecb408b@outlook.com
 
+05/15/19 - RP
 
+setting up the layout of the monitor
+need to use AutoSizer to force Zoom's video window to stay on top
+have the game underneath -- can't find anyway to resize the screen
+issue with game underneath -- person is looking down, hard to see their face from the camera
+instead, place game above the video-feed
+use AutoSizer to set position of the two windows manually each time!
+for Overcooked 2: AutoSize > Resize/Position > Set Size: 1050 x 700 sets it nicely at the top -- just kidding the game auto resizes when a level is finished, and ends up underneath the layer of the Zoom video
+if you put the game below the video, this issue doesn't occur
+consider placing the camera beneath the monitor
+unsure what to do about the layout in terms stacking the camera, the game, and the videochat
+
+make the background of the computer all grey as well
