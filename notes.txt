@@ -44,3 +44,11 @@ some useful links:
 	https://www.reddit.com/r/Twitch/comments/3irm1g/is_there_a_way_to_record_with_obs_capture_the/
 	https://obsproject.com/forum/resources/how-to-split-exclude-seperate-audio-sources-off-your-stream-or-recording.8/
 pilot with RAs tomorrow and see what sounds best
+
+05/21/19 - RP
+notes from yesterday in your physical notebook
+good resources for setting up audio channels
+	https://www.vb-audio.com/Voicemeeter/Voicemeeter_UserManual.pdf
+	https://obsproject.com/wiki/Sources-Guide
+	https://www.reddit.com/r/obs/comments/5a74r0/voicemeeter_banana_and_obs/
+
