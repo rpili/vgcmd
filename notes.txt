@@ -51,4 +51,7 @@ good resources for setting up audio channels
 	https://www.vb-audio.com/Voicemeeter/Voicemeeter_UserManual.pdf
 	https://obsproject.com/wiki/Sources-Guide
 	https://www.reddit.com/r/obs/comments/5a74r0/voicemeeter_banana_and_obs/
+07/01/19 - RP
+watching one experienced person explain how to play the game to a naive person
+this may be an interesting dynamic where one person is talking a lot and the other is backchanneling a lot, might depend on whether or not you can see the other person
 
