@@ -54,7 +54,7 @@ class Parse:
         AOL4e = []
         AVL5e = []
         AOL5e = []
-        AVL6e = []
+        AVL6e = []i
         AOL6e = []
         switch = "base"
         for spot in self.input:
