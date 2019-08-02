@@ -10,9 +10,22 @@ file_to_open = data_folder / "vg09.txt"
 
 with open(file_to_open) as tscript:
     words = tscript.read()
-words = words.split(" ")
+words = words.replace("\n"," ").split(" ")
+
+def remAll(L, item):
+    answer = []
+    for i in L:
+        if i!=item:
+            answer.append(i)
+    return answer
+
+words = remAll(words, '')
 
 print(words)
+
+for idx, spot in enumerate(words):
+    if "[AVLVL" in spot:
+        print(idx, spot, "here")
 
 class Parse:
     def __init__(self, input):
@@ -45,109 +58,135 @@ class Parse:
         AOL6e = []
         switch = "base"
         for spot in self.input:
-            if "[AVLV1]" == spot:
+            if "[AVLVL1]" == spot:
                 switch = spot
                 continue
-            if "[AOLV1]" == spot:
+            elif "[AOLVL1]" == spot:
                 switch = spot
                 continue
-            if "[AVLV2]" == spot:
+            elif "[AVLVL2]" == spot:
                 switch = spot
                 continue
-            if "[AOLV2]" == spot:
+            elif "[AOLVL2]" == spot:
                 switch = spot
                 continue
-            if "[AVLV3]" == spot:
+            elif "[AVLVL3]" == spot:
                 switch = spot
                 continue
-            if "[AOLV3]" == spot:
+            elif "[AOLVL3]" == spot:
                 switch = spot
                 continue
-            if "[AVLV4]" == spot:
+            elif "[AVLVL4]" == spot:
                 switch = spot
                 continue
-            if "[AOLV4]" == spot:
+            elif "[AOLVL4]" == spot:
                 switch = spot
                 continue
-            if "[AVLV5]" == spot:
+            elif "[AVLVL5]" == spot:
                 switch = spot
                 continue
-            if "[AOLV5]" == spot:
+            elif "[AOLVL5]" == spot:
                 switch = spot
                 continue
-            if "[AVLV6]" == spot:
+            elif "[AVLVL6]" == spot:
                 switch = spot
                 continue
-            if "[AOLV6]" == spot:
+            elif "[AOLVL6]" == spot:
                 switch = spot
                 continue
-            if "END" in spot:
+            elif "END" in spot:
                 if "AV" in spot:
-                    if "LV1" in spot:
+                    if "LVL1" in spot:
                         switch = spot
                         print(switch)
                         continue
-                    if "LV2" in spot:
+                    elif "LVL2" in spot:
                         switch = spot
                         continue
-                    if "LV3" in spot:
+                    elif "LVL3" in spot:
                         switch = spot
                         continue
-                    if "LV4" in spot:
+                    elif "LVL4" in spot:
                         switch = spot
                         continue
-                    if "LV5" in spot:
+                    elif "LVL5" in spot:
                         switch = spot
                         continue
-                    if "LV6" in spot:
+                    elif "LVL6" in spot:
                         switch = spot
                         continue
-                if "AO" in spot:
-                    if "LV1" in spot:
+                elif "AO" in spot:
+                    if "LVL1" in spot:
                         switch = spot
                         continue
-                    if "LV2" in spot:
+                    elif "LVL2" in spot:
                         switch = spot
                         continue
-                    if "LV3" in spot:
+                    elif "LVL3" in spot:
                         switch = spot
                         continue
-                    if "LV4" in spot:
+                    elif "LVL4" in spot:
                         switch = spot
                         continue
-                    if "LV5" in spot:
+                    elif "LVL5" in spot:
                         switch = spot
                         continue
-                    if "LV6" in spot:
+                    elif "LVL6" in spot:
                         switch = spot
                         continue
-            if switch == "[AVLV1]":
+            if switch == "[AVLVL1]":
                 AVL1.append(spot)
-            if switch == "[AOLV1}":
+            elif switch == "[AOLVL1]":
                 AOL1.append(spot)
-            if switch == "[AVLV2]":
+            elif switch == "[AVLVL2]":
                 AVL2.append(spot)
-            if switch == "[AOLV2]":
+            elif switch == "[AOLVL2]":
                 AOL2.append(spot)
-            if switch == "[AVLV3]":
+            elif switch == "[AVLVL3]":
                 AVL3.append(spot)
-            if switch == "[AOLV3]":
+            elif switch == "[AOLVL3]":
                 AOL3.append(spot)
-            if switch == "[AVLV4]":
+            elif switch == "[AVLVL4]":
                 AVL4.append(spot)
-            if switch == "[AOLV4]":
+            elif switch == "[AOLVL4]":
                 AOL4.append(spot)
-            if switch == "[AVLV5]":
+            elif switch == "[AVLVL5]":
                 AVL5.append(spot)
-            if switch == "[AOLV5]":
+            elif switch == "[AOLVL5]":
                 AOL5.append(spot)
-            if switch == "[AVLV6]":
+            elif switch == "[AVLVL6]":
                 AVL6.append(spot)
-            if switch == "[AOLV6]":
+            elif switch == "[AOLVL6]":
                 AOL6.append(spot)
+            elif switch == "[AVLVL1END]":
+                AVL1e.append(spot)
+            elif switch == "[AOLVL1END]":
+                AOL1e.append(spot)
+            elif switch == "[AVLVL2END]":
+                AVL2e.append(spot)
+            elif switch == "[AOLVL2END]":
+                AOL2e.append(spot)
+            elif switch == "[AVLVL3END]":
+                AVL3e.append(spot)
+            elif switch == "[AOLVL3END]":
+                AOL3e.append(spot)
+            elif switch == "[AVLVL4END]":
+                AVL4e.append(spot)
+            elif switch == "[AOLVL4END]":
+                AOL4e.append(spot)
+            elif switch == "[AVLVL5END]":
+                AVL5e.append(spot)
+            elif switch == "[AOLVL5END]":
+                AOL5e.append(spot)
+            elif switch == "[AVLVL6END]":
+                AVL6e.append(spot)
+            elif switch == "[AOLVL6END]":
+                AOL6e.append(spot)
         return AVL1, AOL1, AVL2, AOL2, AVL3, AOL3, AVL4, AOL4, AVL5, AOL5, AVL6, AOL6
 
 parser = Parse(words)
 
-output = parser.condsplit()
-print(output)
+[AVL1, AOL1, AVL2, AOL2, AVL3, AOL3, AVL4, AOL4, AVL5, AOL5, AVL6, AOL6] = parser.condsplit()
+print("AVL1", AVL1)
+print("AVL3", AVL3)
+print("AOL2", AOL2)
