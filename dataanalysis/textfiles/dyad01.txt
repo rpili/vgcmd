@@ -1,0 +1,567 @@
+[TutorialStory]
+experimenter: sweet okay and then yeah you’ll just be basically playing with the other player
+9: okay
+experimenter: Umm through the tutorial you can choose to talk to them if you want to if not, umm but it’s a little cooperative (inaudible)
+experimenter: if you have any questions
+9: okay
+experimenter: i’ll be out there
+9: okay
+experimenter: um when you’re done with the tutorial just yell
+9: okay
+
+
+[TutorialGameplay]
+        8: i have no idea how this game works
+        8: ok wait
+        9: um press space to pick up
+8: *there we go 
+9: *ya
+8: *okay
+9: umm
+8: now i guess i give it back to you
+9: *i think so
+9: uhh
+8: wait i can dash oh wow
+9: um
+9: shoot
+8: wait do we put it the same place or do we have to like
+8: oh im very confused
+9:um i dont know if im doing this right
+8: *i think so
+8: um it hasn’t- we’ve haven’t like  had to stop doin anything so i guess we’re doing it right
+9: *okay
+8: oh i see how this works now
+9: is it just the same thing over and over
+8: i think so i think that’s why it’s like a tutorial cause like i thought  we had to mix them and we had to like actually make a recipe but no i think we’re just chopping shit and throwing it in the oven
+9: *okay
+8: *ooo ah
+8: this is just going forever
+9: i don’t know seems like it
+8: it’s not ending
+9: are we doing something wrong
+8: I-I i think so cause like there’s a timer on the bottom right hand corner and it’s been on 1:30 for like at least a minute and thirty seconds so
+8: ohh i think i see what we’re supposed to do 
+9: *what 
+8: i think we’re supposed to somehow combine these to-uh
+8: what did I-
+9: oh you can throw
+8: i can throw it
+8: i did not know that was a thing what
+9: how’d  you do that
+8: i think i double clicked space
+9: no
+8: no-what was it
+8: *uagh wait
+8: control space? *Oh there we go yea it’s control and space
+9: *control and space okay
+8: *yeah-
+8: ok so somehow i think we combine the two cause i see a salad in the top left hand corner so im guessing that’s what we’re supposed to make
+9: a salad *oh oh yeah okay so here 
+9: *ohh yeah
+8: that took us way too long
+9: *wait whats
+8: oh now we need cucumber *where do we oh there it is 
+9: *right here
+8: okay now we’re getting the hang of it there we go
+9: *yeah okay
+9: oh now we have two
+8: do we have to serve it  at the same time or is it do we just make two things
+9: i think we just make two things
+8: *oh no there’s alot of orders coming in now
+9: *oh now i know why we use dash
+8: *oh yeah this makes sense now okay
+9: *two oh i don’t have another plate
+9: how do you throw away something *no wait actually
+8: *oh no we can just create the other dish
+9: *yeah
+8: *there we go
+8: *oh no no ah
+8: *woah i didn’t know you could that 
+8: *ohh sorry
+9: *its okay
+
+
+[TutorialEnd]
+        
+9: is this the..end
+8: *oh wait i can move
+9: *oh
+8: I think this is the end of the tutorial but  i’m not sure. um
+9: *whats
+8: *oh wait where are we going 
+8: *oh they stopped talking to him
+9: *to
+8: *what
+9: umm
+9: press E maybe oh
+8: *yeah there we go
+9: *whats this
+9: *oh this way
+8: *yeah there we go
+
+
+[AVLV1]
+9: wur umblow
+8: *ah okay um
+9: *what woah
+8:*wait what
+8: *ohoh there we go
+9: how’d you chop
+8: um you just click control
+9: *oh control
+8: *yeahh um
+9: oh so its not letting oh
+8: *thats not it
+9: how do you
+8: *there we go
+9: uh oh
+8: *oh ok yea we need to replate it
+8: *oop sorry
+9: *its ok
+8: using the dash is so  weird I still haven’t like  learned how to do it right
+9: *yeah i kinda just like walk really slowly and im kinda fine with it 
+8: *yeah
+9: *oh sorry
+8: haha
+9: haha
+8: this game is brutal
+9: *yeah
+8: then it just came up right when you threw it away
+9: *yeah haha you saw that
+8: *yeah ha
+8: *no you can oh wait you need a plate agh
+8: *wait ah there you go
+8: no i wanna chop it
+8: *oh wrong one come on one more come one dash
+9: *aghh
+8: *ah what no
+8: i made it
+[AVLV1END]
+9: ayy we got three stars
+8: *oh nice
+9: umm
+9: continue i guess
+8: that wasn’t bad
+9: *yeah
+9: okay do we call them
+8: um yeah i guess
+9: hi
+Experimenter: hey
+9: we’re done with level one
+Experimenter: *okay
+Experimenter: (inaudible)
+9: yeah
+Experimenter: *alright
+Experimenter: you’re going to go to level one dash three
+9: three? Is it down
+Experimenter: uh
+8: oh we’re going all the way to three now
+9: *yeah
+Experimenter: let me just check in with the other participant
+9: *okay
+Experimenter: how’s it going
+8: good good 
+Experimenter: any questions
+8: um not so far 
+Experimenter: okay sweet
+Experimenter: (inaudible) 
+8: *okay
+Experimenter: whenever you're ready you're gonna hit the spacebar to begin
+9: *okay
+Experimenter: again (inaudible)
+9: *okay
+9: k you ready
+8: yeah
+[AVLV3]
+8: oh this looks more complex
+9:haha
+9: oh we needa wash dishes
+8:*oh no
+8: how do they make video- like why do you have to wash dishes in video games isn’t it the point to like not have to do that stuff
+9: *yeah where’s the cucumbers
+8: okay i got a cucumber do i have to wash the cucumber too? *No okay
+9: haha
+8: where are the cutting boards
+9: *oh wait you cant cut  this wait yeah you can
+8: wait isnt thats seaweed i dont- i think you just wrap it i guess
+9: *okay so just leave it
+8: *oh no
+9: hha
+8: *yeah i think so
+8: wait there it says rice i guess oh wait maybe i have to put the rice- i don't cut the rice do i do i wash the rice
+9: I
+9: where is the
+9: no i dont think you have to do anything with rice right
+8:  *thats okay
+8: um okay so the first one is sushi su yeah shrimp but whats that next one its like sushi but its like seaweed, rice, cucumber and some black thing
+9: oh it looks like a pot you  put it in the pot theres a pot right there in the top right
+8: *oh oh ok
+8: thats gonna take a while
+9: why are the plates so far away
+8: *yeah i feel like they made this one like hard intentionally
+9: *yeah
+8: this one just got a lot more difficult for no reason
+8: *oh no no no no
+8: i got it i got it i got it
+8: what do i do with this now um
+9:  *okay
+9:  um drain
+8: *oh there we go okay
+8: we got one we got one
+9: whats whats this oh oh
+8: oh thats the fire extinguisher i hope we dont need that
+9: *yeah
+8: okay wait i have an idea im gonna start boiling all the rice and you get the cucumbers and uh seaweed together
+9: *okay you dont do anything with seaweed right
+8: no you just put it on there
+9: wheres the plates
+8: i dont know
+9: *what
+8: *im gonna be honest
+9: ohh you have to wash the plates
+8: *oh no
+9: what do you
+9: nothings happening
+8: *no no uh
+9: *oh control
+8: no come on no dont expire order youre gonna get your order on time there you go okay
+9: okay got one plate washed
+8: *okay we're on our way
+8: *see oh
+8: rice dont explode
+[AVLV3END]
+8: okay that one was much more difficult
+9: *yeah it was
+8: *yea they added so many factors at once like we have to wash                 
+                    dishes now
+9:i forgot about washing dishes
+8: *yeah i completely forgot im gonna be honest
+9: um
+8: continue again i guess
+9: i think so its not working oh
+8: *yeah i hope they dont make us go to another level
+9: to dry the dishes
+8: *oh no
+9: ha
+8: um oh uh so we did that level do we play it again if we only got one star or do we just move on to the next one or okay
+Experimenter: the next level youre going to play is one six
+9: *okay
+Experimenter: you can drive it
+9: *yeah
+Experimenter: *yeah
+9: where
+Experimenter: youre going to go the little stairs there you go right there
+9: uh
+Experimenter: its really hard perfectly on the road
+8: oh this not gonna be fun
+Experimenter: there you go and then
+9: this one
+Experimenter: yep
+9: *okay
+Experimenter: whenever youre both ready ill be out here
+9: *okay
+8: *okay
+Experimenter: and just tell me when youre done
+8: oh thank you
+8: you ready
+9: *yeah
+[AVLV6]
+9: its one point six
+9: (inaudible) 
+9: oh that looks
+8: pretty bad 
+9: yeah are we gonna uh
+9: oh were in the sky
+8: oh i hope we dont have to drop it on people
+8: okay this is pretty easy salad
+9: oh wait no chop
+8: wait what no no stuff is on fire
+8: wheres the fire extinguisher
+9: uhh there was a bear holding it last time
+8: what wait why is the whole thing on fire
+9: why is the whole thing on fire
+8: the whole thing is on fire and we dont have a fire extinguisher
+9: um
+8: im just gonna keep making food
+9: *okay im gonna figure out howda where water
+8: they seem to be going out theyre going out so i think we just have to avoid them
+9: *okay
+8: i hope that is 
+9: whats the next 
+8: um cucumber
+9: *woah
+8: oh this is intense
+8: wait what theyre blowing
+9: *whats blowing
+9: *oh what                                            
+8: the ingredients blew closer to us
+9: wheres the plates
+8: oh wait we only have dirty plates
+9: *oh no
+8: were supposed to wash the plates
+9: *ugh
+8: (inaudible) 
+9: wait what
+9: are you wait are you washing  *okay
+8: *yeah
+9: ahg
+8: *okay there we go the plates done
+8: wait let me take them out
+9: oh
+8: oh this is annoying
+8: what else do we need we need
+9: oh did i 
+9: it froze
+9: oh did u fall
+8: i just fell off
+9: you could fall
+8: i just fell off
+9: woah
+8: i didnt know that was a thing
+8: woah  whats going on
+9:wait what
+8: what ok
+9: i guess were in a restaurant
+8: were in a restaurant  now that happened
+9: uh where is everything
+8: yeah it kinda got scattered everything 
+9: oh we got dirty
+8: *yeah we got dirty dishes yeah just start chopping up more stuff 
+8: this rice i guess i just grab it do we have pots to boil it though oh we do now
+9: uhh sushi
+9: wheres wheres the fish
+8: we need one more salad go ok almost
+8i think we might need another plate wash
+9: *ok ill do that
+9: where are they
+8: um right here
+9: ah oh no theyre on fire 
+8: no
+9: what do i do
+8: no i forgot to take the rice off the stove
+9: wheres the fire extinguisher
+8: i dont know
+8: too many things are on fire way too many things are happening right now the whole thing is on fire maybe i can just cook the rice like that no oh there we go fire
+8: *okay
+9: um oh no i need rice 
+8: ive calmed down the fires but we have four seconds left
+[AVLV6END]
+9: that was so hard
+8: that wasnt so bad the first part
+8: *the first half was okay and then it got crazy
+9:* yeah we fell and then yeah
+8:* yeah
+8: once we started
+9: two stars 
+8: *yeah
+8: *okay that wasnt terrible
+9: *yeah okay
+8: we did the level
+Experimenter: how was it
+8: it was good kinda came out left field when stuff started catching on fire
+Experimenter: *yeah that ones a tough one one six is a 
+Experimenter: ok so now were gonna move on to the next phase (inaudible) 
+8: ok is there still be audio but now you wont be able to see them
+Experimenter: there will still be audio but the one tricky thing is that you wont be able to see yourself
+Experimenter: i would like you to find a position where you know youre in the camera 
+8: *oh ok
+Experimenter: and make sure (inaudible)
+8: *yeah
+Experimenter: and then
+Experimenter: hows that
+8: that should still work
+Experimenter: (inaudible) 
+Experimenter: how was it 
+9: that was it was good
+Experimenter: (inaudible)
+9: it was different yeah
+Experimenter: i know its (inaudible) 
+9: *yeah
+Experiment: (inaudible)
+Experimenter: now were gonna go ahead and move onto the next phase you wont be able to see since (inaudible) 
+9: *okay
+Experimenter: were actually gonna go to the level right next to it one dash two
+9: okay do i just fall off
+Experimenter: yeah
+9: oh whoops
+Experimenter: *no worries
+Experimenter: let me know as soon as your done
+[AOLV2]
+9: um okay
+8: are gonna exit level
+9: we’re what is this oh now its telling us how to make sushi 
+8: yeah this is um this the second oh wait is this the level were supposed to do or not
+9: yeah it is
+8: *okay okay
+9: uh
+8: yo what the get out why you here
+9: wait why are the people here
+9: how do you get the rice out of the pot
+8: um you just go and then place it like there’s nothing you actually do
+8: you can just set it down for now we have enough
+8: *okay uh
+9: oh we dont have to wash dishes
+8: *oh thats so much better
+9: *ah
+8: oh its not done yet
+9: *its not
+8: yeah you gotta to wait for the fire to be done
+9: *oh its not okay
+8: *okay now the rice is done
+8: theres more rice if you need any
+9: *okay
+9: um
+8: i feel like were getting better at this now
+9: *yeah but it is one recipe
+9: *yeah thats probably why
+8: oh no
+8: no
+8: oops okay
+8: oh wait can i make the rice in time no
+8: no we cant finish
+9: what if i  just
+[AOLV2END]
+8: we tried
+8: i feel like we did good on that one
+8: *that one we did the best
+9: *yeah i think we did really good
+9: oh we got three stars
+8: *oh yeah nice
+9: *so we didnt fail any orders which is cool
+8: *yeah 
+9: *okay so
+8: thats probably the best part and we actually delivered like ten
+9: *oh we're back
+9: one
+Experimenter: do you have any questions 
+9: no 
+Experimenters: all good
+9: yeah
+Experimenter: im gonna go check on the other participant
+Experimenter: everything is all good over here
+8: what
+Experimenter: everything is all good over here
+8: *yeah
+Experimenter: *yeah okay
+Experimenter: we’ll just begin the next level
+8: *okay 
+Experimenter: whenever you’re ready 
+9: *okay
+9: you ready
+[AOLV4]
+8: yeah
+9: oop
+8: now we finally learn how to dash
+9: um
+8: um
+9: wait why is oh its like the lil
+8: its like a not an escalator but 
+9: a conveyor belt no yeah
+8: *yeah its like those things at the airports 
+9: *yeah
+8: like the fast walking things at airports
+9: i'm gonna move this over
+9: oh thats probably why we need dash
+9: wheres
+8: so we can just get through it
+8: okay i got some rice
+8: oh no this so annoying to put it on
+9: um
+8: we have to wash dishes again
+9: in this level
+8: *yeah
+9: *great
+8: *i know fun
+9: oh my bad
+8: *oh you're good
+8: wait did we miss an order
+9: no
+8: oh no were missing orders
+9: *we are
+8: yeah see how it starts to time out right there
+9: *oh shoot okay
+8: no no its just i can chop when im on this conveyor belt
+9: here ill get the dishes
+8: *i keep forgetting we have to do those
+8: are these getting faster i cant get through there oh there we go
+8: do we have any dishes no ill ill just wash them
+8: oh were not gonna make it no 
+[AOLV4END]
+8: im giving it to them anyway
+8: come one two stars
+8: ahh
+9: *ahh its one
+9: *hey we got one tho
+8: the freaking orders damn
+9: *dang
+Experimenter: [inaudible]
+9: *yeah
+Experimenter: okay sweet
+Experimenter: how was that 
+9: it was kinda hard
+Experimenter: i think thats the hardest level out of all of them alright so the last level youre gonna play is one dash five
+9: *okay
+Experimenter:* okay
+9: *okay
+Experimenter: yeah same thing whenever youre ready go ahead:
+[AOLV5]
+9: *okay you ready
+8: *yeah
+9: *okay
+9: what oh were making pasta
+8: oh okay oh not on the blimp again no okay um
+9: wait why is thing on fire already
+9: how do we 
+8: i think thats to heat the hot air balloon
+8: whats this oh its the fire extinguisher
+9: where is 
+8: okay
+9: oh i see the pasta
+8: *yeah pasta and ill cut up the tomatoes
+9: uhh
+8: oh i have to pan fry the tomatoes ok
+9: *oh wow okay
+8: oh oh oh
+8: wow this is like a three step process right here
+9: oh shoot um ahh
+8: no
+8: oh no no no no 
+9: k boiling pasta again
+8: *okay i'll do the tomatoes and you do the pasta
+9: *okay
+8: oh now its over here now
+9: oh why don't we have plates
+9: where’s the
+8: don't tell me they're dirty they are dirty
+9: where are they
+8: they're over there in the other blimp thing
+8: okay i got some plates there right there
+9: *oh
+8: okay i feel good about this level actually right now
+9: *yeah
+8: but i feel like somethings gonna catch on fire oh no
+8: as long as nothing catches on fire im okay
+9: *yeah oh shoot dishes again
+9: *dang doing dishes is so annoying
+8: *i know
+8: you have to chop it up first
+9: oh oh
+8: oh oh no
+9: what
+8: i threw it on the other side
+9: here ill get it oh it went back on ahggg
+8: no no no im saving the other one oh you saved it
+9: *yeah i got it 
+8: *were good
+9: ill do the plates
+8: why is it beeping oh someone needs their order thats why okay um i can get the order maybe come on speed
+[AOLV5END]
+8: okay i feel good about that one
+9: yeah ayy 
+8: *ayy
+9: dang okay at least we didnt fall this time
+8: *that was pretty good
+8: *yeah and no failed orders either
+9: yeah are we done
+8: um sure
+9: *yeah
