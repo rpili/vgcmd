@@ -79,10 +79,8 @@ class Parse:
                 if "AV" in spot:
                     if "LV1" in spot:
                         switch = spot
-                        print(switch)
                         continue
                     elif "LV2" in spot:
-                        switch = spot
                         switch = spot
                         continue
                     elif "LV4" in spot:
@@ -163,6 +161,7 @@ class Parse:
                 AOL6e.append(spot)
         return AVL1, AOL1, AVL2, AOL2, AVL3, AOL3, AVL4, AOL4, AVL5, AOL5, AVL6, AOL6
 
+
 data_folder = Path("textfiles/")
 file_to_open = data_folder / "dyad01.txt"
 
@@ -170,20 +169,26 @@ with open(file_to_open) as tscript:
     words = tscript.read()
 words = words.replace("\n"," ").split(" ")
 
-def remAll(L, item):
+
+def remall(L, item):
     answer = []
     for i in L:
         if i!=item:
             answer.append(i)
     return answer
 
-words = remAll(words, '')
 
-print(words)
+words = remall(words, '')
 
-for idx, spot in enumerate(words):
-    if "[AVLV" in spot:
-        print(idx, spot, "here")
+# sanity check: make sure data is read in and previous function works
+#print(words)
+
+
+# sanity check: make sure tags even exist in the transcriptions
+#for idx, spot in enumerate(words):
+#    if "[AVLV" in spot:
+#        print(idx, spot, "here")
+
 parser = Parse(words)
 
 [AVL1, AOL1, AVL2, AOL2, AVL3, AOL3, AVL4, AOL4, AVL5, AOL5, AVL6, AOL6] = parser.condsplit()
