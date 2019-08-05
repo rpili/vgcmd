@@ -4,28 +4,9 @@
 #script to define a class for transcriptions, with functions to split it up into conditions, and into participants
 
 from pathlib import Path
+import csv
 
-data_folder = Path("textfiles/")
-file_to_open = data_folder / "dyad01.txt"
 
-with open(file_to_open) as tscript:
-    words = tscript.read()
-words = words.replace("\n"," ").split(" ")
-
-def remAll(L, item):
-    answer = []
-    for i in L:
-        if i!=item:
-            answer.append(i)
-    return answer
-
-words = remAll(words, '')
-
-print(words)
-
-for idx, spot in enumerate(words):
-    if "[AVLV" in spot:
-        print(idx, spot, "here")
 
 class Parse:
     def __init__(self, input):
@@ -182,9 +163,33 @@ class Parse:
                 AOL6e.append(spot)
         return AVL1, AOL1, AVL2, AOL2, AVL3, AOL3, AVL4, AOL4, AVL5, AOL5, AVL6, AOL6
 
+data_folder = Path("textfiles/")
+file_to_open = data_folder / "dyad01.txt"
+
+with open(file_to_open) as tscript:
+    words = tscript.read()
+words = words.replace("\n"," ").split(" ")
+
+def remAll(L, item):
+    answer = []
+    for i in L:
+        if i!=item:
+            answer.append(i)
+    return answer
+
+words = remAll(words, '')
+
+print(words)
+
+for idx, spot in enumerate(words):
+    if "[AVLV" in spot:
+        print(idx, spot, "here")
 parser = Parse(words)
 
 [AVL1, AOL1, AVL2, AOL2, AVL3, AOL3, AVL4, AOL4, AVL5, AOL5, AVL6, AOL6] = parser.condsplit()
+condList = [AVL1, AOL1, AVL2, AOL2, AVL3, AOL3, AVL4, AOL4, AVL5, AOL5, AVL6, AOL6]
+countList = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+condNames = ["AVL1", "AOL1", "AVL2", "AOL2", "AVL3", "AOL3", "AVL4", "AOL4", "AVL5", "AOL5", "AVL6", "AOL6"]
 print("AVL2", AVL2)
 print("AVL4", AVL4)
 print("AVL5", AVL5)
@@ -197,4 +202,39 @@ print("AOL5", AOL5)
 print("AOL1", AOL1)
 print("AOL3", AOL3)
 print("AOL6", AOL6)
+
+for idx, cond in enumerate(condList):
+    BCcounter = 0
+    for word in cond:
+        if "*" in word:
+            BCcounter += 1
+    countList[idx] = BCcounter
+print(countList)
+
+csv_folder = Path()
+parseCSV = csv_folder / "parseCount.csv"
+
+print(parseCSV)
+
+try:
+    parseCSV = parseCSV.resolve(strict=True)
+except FileNotFoundError:
+    # doesn't exist: create it and append condNames and countList
+    with open('parseCount.csv', 'a') as csvFile:
+        writer = csv.writer(csvFile)
+        writer.writerows([condNames])
+        # for line in countList:
+        #    writer.writerow(line)
+        writer.writerows([countList])
+    csvFile.close()
+else:
+    # exists: delete it and append condNames and countList
+    parseCSV.unlink()
+    with open('parseCount.csv', 'a') as csvFile:
+        writer = csv.writer(csvFile)
+        writer.writerows([condNames])
+        # for line in countList:
+        #    writer.writerow(line)
+        writer.writerows([countList])
+    csvFile.close()
 
