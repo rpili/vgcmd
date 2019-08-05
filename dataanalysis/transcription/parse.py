@@ -163,7 +163,7 @@ class Parse:
 
 
 data_folder = Path("textfiles/")
-file_to_open = data_folder / "dyad01.txt"
+file_to_open = data_folder / "dyad02.txt"
 
 with open(file_to_open) as tscript:
     words = tscript.read()
@@ -221,6 +221,8 @@ parseCSV = csv_folder / "parseCount.csv"
 
 print(parseCSV)
 
+textpath = Path(data_folder).glob('**/*.txt')
+
 try:
     parseCSV = parseCSV.resolve(strict=True)
 except FileNotFoundError:
@@ -230,14 +232,15 @@ except FileNotFoundError:
         writer.writerows([condNames])
         # for line in countList:
         #    writer.writerow(line)
+        for path in textpath:
+            pathStr = str(path)
+            print(pathStr)
         writer.writerows([countList])
     csvFile.close()
 else:
-    # exists: delete it and append condNames and countList
-    parseCSV.unlink()
+    # exists: append condNames and countList
     with open('parseCount.csv', 'a') as csvFile:
         writer = csv.writer(csvFile)
-        writer.writerows([condNames])
         # for line in countList:
         #    writer.writerow(line)
         writer.writerows([countList])
