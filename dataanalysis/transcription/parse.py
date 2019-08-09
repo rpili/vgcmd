@@ -12,6 +12,26 @@ class Parse:
     def __init__(self, input):
         self.input = input
 
+# method to word count for each participant -- dyad05.txt isn't setup right for it so save for later.
+#    def pptsplit(self):
+#        ppt_a = 0
+#        ppt_b = 0
+#        switch = "base"
+#        for spot in self.input:
+#            if ":" in spot:
+
+    def wordcount(self):
+        wordcount = 0
+        for spot in self.input:
+            if "[" in spot:
+                continue
+            elif ":" in spot:
+                continue
+            else:
+                wordcount += 1
+        return wordcount
+
+
     def condsplit(self):
         AVL1 = []
         AOL1 = []
@@ -37,6 +57,8 @@ class Parse:
         AOL5e = []
         AVL6e = []
         AOL6e = []
+        av_wordcount = 0
+        ao_wordcount = 0
         switch = "base"
         for spot in self.input:
             if "[AVLV1]" == spot:
@@ -113,26 +135,37 @@ class Parse:
                         continue
             if switch == "[AVLV1]":
                 AVL1.append(spot)
+                av_wordcount += 1
             elif switch == "[AOLV1]":
                 AOL1.append(spot)
+                ao_wordcount += 1
             elif switch == "[AVLV2]":
                 AVL2.append(spot)
+                av_wordcount += 1
             elif switch == "[AOLV2]":
                 AOL2.append(spot)
+                ao_wordcount += 1
             elif switch == "[AVLV3]":
                 AVL3.append(spot)
+                av_wordcount += 1
             elif switch == "[AOLV3]":
                 AOL3.append(spot)
+                ao_wordcount += 1
             elif switch == "[AVLV4]":
                 AVL4.append(spot)
+                av_wordcount += 1
             elif switch == "[AOLV4]":
                 AOL4.append(spot)
+                ao_wordcount += 1
             elif switch == "[AVLV5]":
                 AVL5.append(spot)
+                av_wordcount += 1
             elif switch == "[AOLV5]":
                 AOL5.append(spot)
+                ao_wordcount += 1
             elif switch == "[AVLV6]":
                 AVL6.append(spot)
+                av_wordcount += 1
             elif switch == "[AOLV6]":
                 AOL6.append(spot)
             elif switch == "[AVLV1END]":
@@ -159,7 +192,7 @@ class Parse:
                 AVL6e.append(spot)
             elif switch == "[AOLV6END]":
                 AOL6e.append(spot)
-        return AVL1, AOL1, AVL2, AOL2, AVL3, AOL3, AVL4, AOL4, AVL5, AOL5, AVL6, AOL6
+        return AVL1, AOL1, AVL2, AOL2, AVL3, AOL3, AVL4, AOL4, AVL5, AOL5, AVL6, AOL6, av_wordcount, ao_wordcount
 
 
 data_folder = Path("textfiles/")
@@ -191,10 +224,13 @@ words = remall(words, '')
 
 parser = Parse(words)
 
-[AVL1, AOL1, AVL2, AOL2, AVL3, AOL3, AVL4, AOL4, AVL5, AOL5, AVL6, AOL6] = parser.condsplit()
+wordcount = parser.wordcount()
+print("wordcount is", wordcount)
+
+[AVL1, AOL1, AVL2, AOL2, AVL3, AOL3, AVL4, AOL4, AVL5, AOL5, AVL6, AOL6, ao_wc, av_wc] = parser.condsplit()
 condList = [AVL1, AOL1, AVL2, AOL2, AVL3, AOL3, AVL4, AOL4, AVL5, AOL5, AVL6, AOL6]
 countList = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-condNames = ["AVL1", "AOL1", "AVL2", "AOL2", "AVL3", "AOL3", "AVL4", "AOL4", "AVL5", "AOL5", "AVL6", "AOL6"]
+condNames = ["AVL1", "AOL1", "AVL2", "AOL2", "AVL3", "AOL3", "AVL4", "AOL4", "AVL5", "AOL5", "AVL6", "AOL6", "AV_BC", "AO_BC", "AV_WC", "AO_WC"]
 print("AVL2", AVL2)
 print("AVL4", AVL4)
 print("AVL5", AVL5)
@@ -207,6 +243,8 @@ print("AOL5", AOL5)
 print("AOL1", AOL1)
 print("AOL3", AOL3)
 print("AOL6", AOL6)
+print("av_wc is", av_wc)
+print("ao_wc is", ao_wc)
 
 for idx, cond in enumerate(condList):
     BCcounter = 0
@@ -230,19 +268,65 @@ except FileNotFoundError:
     with open('parseCount.csv', 'a') as csvFile:
         writer = csv.writer(csvFile)
         writer.writerows([condNames])
-        # for line in countList:
-        #    writer.writerow(line)
         for path in textpath:
+            countList = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
             pathStr = str(path)
             print(pathStr)
-        writer.writerows([countList])
+
+            with open(pathStr) as tscript:
+                words = tscript.read()
+            words = words.replace("\n", " ").split(" ")
+
+            words = remall(words, '')
+
+            parser = Parse(words)
+            [AVL1, AOL1, AVL2, AOL2, AVL3, AOL3, AVL4, AOL4, AVL5, AOL5, AVL6, AOL6, av_wc, ao_wc] = parser.condsplit()
+            condList = [AVL1, AOL1, AVL2, AOL2, AVL3, AOL3, AVL4, AOL4, AVL5, AOL5, AVL6, AOL6]
+
+            for idx, cond in enumerate(condList):
+                BCcounter = 0
+                for word in cond:
+                    if "*" in word:
+                        BCcounter += 1
+                countList[idx] = BCcounter
+            print(countList)
+            AV = countList[0] + countList[2] + countList[4] + countList[6] + countList[8] + countList[10]
+            AO = countList[1] + countList[3] + countList[5] + countList[7] + countList[9] + countList[11]
+            countList.extend((AV, AO, av_wc, ao_wc))
+            writer.writerows([countList])
     csvFile.close()
 else:
     # exists: append condNames and countList
+    parseCSV.unlink()
     with open('parseCount.csv', 'a') as csvFile:
         writer = csv.writer(csvFile)
-        # for line in countList:
-        #    writer.writerow(line)
-        writer.writerows([countList])
+        writer.writerows([condNames])
+        for path in textpath:
+            pathStr = str(path)
+            countList = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            pathStr = str(path)
+            print(pathStr)
+
+            with open(pathStr) as tscript:
+                words = tscript.read()
+            words = words.replace("\n", " ").split(" ")
+
+            words = remall(words, '')
+
+            parser = Parse(words)
+            [AVL1, AOL1, AVL2, AOL2, AVL3, AOL3, AVL4, AOL4, AVL5, AOL5, AVL6, AOL6, av_wc, ao_wc] = parser.condsplit()
+            condList = [AVL1, AOL1, AVL2, AOL2, AVL3, AOL3, AVL4, AOL4, AVL5, AOL5, AVL6, AOL6]
+
+            for idx, cond in enumerate(condList):
+                BCcounter = 0
+                for word in cond:
+                    if "*" in word:
+                        BCcounter += 1
+                countList[idx] = BCcounter
+            print(countList)
+            AV = countList[0] + countList[2] + countList[4] + countList[6] + countList[8] + countList[10]
+            AO = countList[1] + countList[3] + countList[5] + countList[7] + countList[9] + countList[11]
+            countList.extend((AV, AO, av_wc, ao_wc))
+            writer.writerows([countList])
     csvFile.close()
 
