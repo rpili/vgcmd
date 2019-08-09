@@ -1,0 +1,258 @@
+[TutorialStory] 
+3.00, 17, v, smile
+3.00, 16, v, smile
+3.00, 17, v, smile
+3.30, 17, v, smile
+3.30, 16, v, smile
+3.30, 17, v, smile
+3.30, 17, v, shakehead
+3.30, 16, v, nod
+3.30, 17, v, nod
+4.00, 16, v,  smile
+4.00, 16, v,  smile
+4.00, 16, v,  smile
+4.00, 16, v,  smile
+4.30, 17, v,  smile
+4.30, 16, v,  smile
+4.30, 17, v,  smile
+ 
+[TutorialGameplay] 
+4.45, 16, i, movingaround
+4.45, 17, v, nod
+5.15
+5.45
+6.15
+6.45
+7.15
+7.15, 16, v, smile
+7.15, 16, v, smile
+7.15, 17, v, pointing
+7.15, 16, v, pointing
+
+
+[BetweenTutorial] 
+7.30, 17, v, nod
+7.30, 17, v, nod
+7.30, 16, v, smile
+7.30, 17, v, nod
+8.00, 16, v, smile
+8.30, 17, v, nod
+8.30, 17, v, nod
+
+
+[AVLV1] 
+8.45, 16, v, smile
+8.45, 17, v, smile
+9.15, 16, v, smile
+9.15, 17, v, nod
+9.45, 16, v, smile
+10.15, 16, v, smile
+10.15, 17, v, smile
+10.15, 16, v, smile
+10.15, 16, v, smile
+10.45, 17, v, smile
+10.45, 16, v, smile
+10.45, 17, v, smile
+10.45, 16, v, smile
+10.45, 17, v, smile
+10.45, 16, v, smile
+10.45, 16, v, smile
+10.45, 17, v, smile
+
+
+11.15, 16, v, smile
+11.15, 16, v, smile
+11.15, 17, v, headshake
+11.15, 17, v, nod
+11.45, 16, v, nod
+11.45, 17, v, smile
+11.45, 16, v, headshake
+11.45, 17, v, headshake
+
+
+ [AVLV1END] 
+12.00, 16, v, smile
+12.15, 17, v, nod
+12.30, 16, v, smile
+12.45, 16, v, smile
+
+
+[AVLV3] 
+13.00, 16, v, smile
+13.00, 17, v, smile
+13.00, 16, v, smile
+13.00, 17, v nod
+13.30, 17, v, nod
+14.00
+14.30, 17, v, smile
+14.30, 16, v, smile
+14.30, 17, v, smile 
+15.00, 16, v, smile
+15.00, 16, v,smile
+15.00, 16, v, headshake
+15.30
+16.00
+16.00, 17, v, smile
+
+
+[AVLV3END] 
+16.15, 17, v, handshake
+16.15, 16, v, smile
+16.45
+17.15
+17.15, 16, v, smile
+17.15, 17, v, smile
+
+
+[AVLV6]
+17.45, 16, v, smile
+17.45, 17, v, smile
+17.45, 16, v, smile
+17.45, 16, v, smile
+17.45, 17, v, smile
+17.45, 16, v, smile
+17.45, 17, v, smile
+17.45, 16, v, smile
+18.15, 16, v, smile
+18.15, 17, v, smile
+18.15, 16, v, smile
+18.45, 16, v, smile
+18.45, 17, v, smile
+18.45, 17, v, smile
+18.45, 16, v, smile
+18.45, 17, v, smile
+
+
+19.15, 16, v, smile
+19.15, 17, v, smile
+19.15, 16, v, smile
+19.15, 17, v, smile
+19.15, 16, v, smile
+19.45, 17, v, smile
+19.45, 16, v, smile
+19.45, 17, v, smile
+20.15
+20.45, 16, v, smile
+20.45, 16, v, smile
+20.45, 16, v, smile
+20.45, 17, v, smile
+21.15, 17, v, nod
+21.15, 17, v, smile
+21.15, 16, v, smile
+21.15, 17, v, smile
+21.15, 17, v, smile
+21.15, 16, v, headshake
+21.45, 16, v, smile
+21.45, 17, v, smile
+21.45, 17, v, headshake
+
+
+[AVLV6END] 
+22.00, 16, v, smile
+22.30
+22.30, 16, v, smile
+22.30, 17, v, nod
+22.30, 17, v, nod
+
+
+[AOLV2]
+23.00, 16, v, smile
+23.00, 17, v, smile
+23.00, 16, v, smile
+23.00, 16, v, smile 
+23.00, 17, v, smile
+23.30, 16, v, smile
+23.30, 17, v, smile
+24.00, 16, v, smile
+24.30, 17, v, headshake
+25.00, 16, v, smile
+25.00, 17, v, smile
+25.30
+26.00, 16, v, smile
+26.00, 17, v, smile
+
+
+[AOLV2END] 26.15
+26.15, 16, v, smile
+26.15, 17, v, smile
+26.15, 16, v, smile
+26.15, 16, v, smile
+26.45, 16, v, smile
+26.45, 17, v, smile
+
+
+[AOLV4] 
+27.15, 17, v, smile
+
+
+27.45, 17, v, headshake
+27.45, 17, v, smile
+27.45, 16, v, smile
+28.15, 16, v, smile
+28.15, 17, v, smile
+28.15, 16, v, smile
+28.15, 17, v, smile
+28.15, 17, v, headshake
+28.45, 16, v, smile
+28.45, 17, v, smile
+28.45, 17, v, smile
+28.45, 17, v, smile
+29.15
+29.45, 16, v, smile
+29.45, 17, v, smile
+29.45, 16, v, smile
+29.45, 17, v, smile
+30.15, 16, v, smile
+30.45, 17, v, smile
+30.45, 16, v, nod
+30.45, 17, v, smile
+
+
+[AOLV4END] 31.00
+31.00, 16, i,  EMOTE
+31.00, 17, i,  EMOTE
+31.00, 16, i, EMOTE
+31.30, 16, v, smile
+
+
+[AOLV5] 
+32.00, 16, v, smile
+32.00, 17, v, nod
+32.00, 17, v, smile
+32.30, 17, v, smile
+33.00, 16, v, smile
+33.00, 17, v, smile
+33.00, 17, v, smile
+33.30, 16, v, smile
+33.30, 17, v, smile
+33.30, 16, v, smile
+33.00, 17, v, smile
+33.00, 17, v, nod
+34.00, 17, v, smile
+34.00, 16, v, smile
+34.00, 17, v, smile
+34.00, 17, v, nod
+34.30
+35.00, 17, v, nod
+35.00, 16, v, smile
+35.00, 17, v, smile
+35.00, 16, v, nod
+35.00, 16, v, smile
+35.00, 17, v, smile
+35.00, 16, v, smile 
+35.00, 16, v, smile
+35.00, 17, v, smile
+35.30
+35.30, 16, v, smile
+35.30, 17, v, smile
+35.30, 16, v, smile
+35.30, 17, v, smile
+35.30, 16, v, smile
+35.30, 17, v, smile
+35.30, 16, v, smile
+35.30, 17, v, smile
+
+
+[AOLV5END] 36.00
+36.00, 16, v, smile
+36.00, 16, v, smile

@@ -1,0 +1,290 @@
+[TutorialStory], NaN, NaN, NaN, NaN
+
+
+[TutorialGameplay], 10.04, v, 9, smile
+[TutorialGameplay], 10.17, v, 9, smile
+[TutorialGameplay], 10.57, v, 9, smile
+[TutorialGameplay], 11.11, v, 9, smile
+[TutorialGameplay], 11.42, v, 9, smile
+[TutorialGameplay], 12.11, v, 9, smile
+[TutorialGameplay], 12.24, v, 9, smile
+[TutorialGameplay], 12.40, v, 9, smile
+[TutorialGameplay], 12.52, v, 9, smile
+[TutorialGameplay], 13.07, v, 9, smile
+[TutorialGameplay], 13.47, v, 9, smile
+[TutorialGameplay], 14.51, v, 9, smile
+[TutorialGameplay], 15.20, v, 9, smile
+[TutorialGameplay], 15.45, v, 9, smile
+[TutorialGameplay], 15.53, v, 9, smile
+
+
+
+
+[TutorialEnd], 16.06, v, 9, smile
+
+
+
+
+[BetweenTutorial], 16.55, v, 9, eyeraise
+[BetweenTutorial], 17.09, v, 9, smile
+[BetweenTutorial], 18.43, v, 9, smile
+
+
+
+
+[AVLV1], 19.50, v, 9, smile
+[AVLV1], 19.56, v, 9, smile
+[AVLV1], 20.04, v, 9, smile
+[AVLV1], 20.56, v, 9, smile
+[AVLV1], 21.23, v, 9, smile
+[AVLV1], 21.31, v, 9, smile
+[AVLV1], 21.51, v, 9, smile
+[AVLV1], 21.59, v, 9, smile
+[AVLV1], 25.23, i, 9, movearound
+
+
+
+
+[AVLV1END], 22.21, v, 9, smile
+[AVLV1END], 23.22, v, 9, smile
+
+
+
+
+[AVLV3], 23.30, v, 9, smile
+[AVLV3], 23.35, v, 9, smile
+[AVLV3], 23.47, v, 9, smile
+[AVLV3], 24.05, v, 9, smile
+[AVLV3], 24.41, v, 9, handmovement
+[AVLV3], 24.41, v, 9, smile
+[AVLV3], 25.02, v, 9, smile
+[AVLV3], 25.11, v, 9, smile
+[AVLV3], 25.27, v, 9, smile
+[AVLV3], 25.33, v, 9, smile
+[AVLV3], 25.47, v, 9, smile
+[AVLV3], 25.53, v, 9, smile
+[AVLV3], 26.11, v, 9, smile
+[AVLV3], 26.14, v, 9, smile
+
+
+
+
+[AVLV3END], 26.42, v, 9, smile
+[AVLV3END], 26.53, v, 9, smile
+[AVLV3END], 27.18, v, 9, smile
+[AVLV3END], 27.40, v, 9, smile
+[AVLV3END], 28.07, v, 9, smile
+
+
+
+
+[AVLV6], 28.23, v, 9, smile
+[AVLV6], 28.40, v, 9, smile
+[AVLV6], 28.58, v, 9, smile
+[AVLV6], 29.00, v, 9, headmove
+[AVLV6], 29.24, v, 9, smile
+[AVLV6], 29.45, v, 9, smile
+[AVLV6], 30.15, v, 9, smile
+[AVLV6], 30.25, v, 9, squintedeyes
+[AVLV6], 31.49, v, 9, smile
+[AVLV6], 32.05, v, 9, smile
+[AVLV6], 32.20, v, 9, smile
+
+
+
+
+[AVLV6END], 32.30, v, 9, smile
+[AVLV6END], 32.45, v, 9, smile
+[AVLV6END], 32.59, v, 9, smile
+[AVLV6END], 33.50, v, 9, smile
+[AVLV6END], 34.38, v, 9, smile
+[AVLV6END], 34.42, v, 9, smile
+
+
+
+
+[AOLV2], 35.12, v, 9, smile
+[AOLV2], 35.53, v, 9, smile
+[AOLV2], 36.10, v, 9, nod
+[AOLV2], 36.50, v, 9, smile
+[AOLV2], 36.59, v, 9, smile
+[AOLV2], 37.18, v, 9, smile
+[AOLV2], 37.58, v, 9, smile
+
+
+
+
+[AOLV2END], 38.20, v, 9, smile
+[AOLV2END], 38.30, v, 9, smile
+[AOLV2END], 38.43, v, 9, nod
+[AOLV2END], 39.04, v, 9, nod
+[AOLV2END], 39.27, v, 9, nod
+[AOLV2END], 39.30, v, 9, smile
+
+
+
+
+[AOLV4], 39.45, v, 9, smile
+[AOLV4], 39.59, v, 9, smile
+[AOLV4], 40.10, v, 9, smile
+[AOLV4], 41.16, v, 9, smile
+[AOLV4], 42.00, v, 9, smile
+[AOLV4], 42.28, v, 9, smile
+[AOLV4], 43.19, v, 9, smile
+
+
+
+
+[AOLV4END], 43.30, v, 9, smile
+[AOLV4END], 43.50, v, 9, nod
+[AOLV4END], 44.05, v, 9, smile
+
+
+
+
+[AOLV5], 44.24, v, 9, smile
+[AOLV5], 45.04, v, 9, smile
+[AOLV5], 45.22, v, 9, smile
+[AOLV5], 45.43, v, 9, smile
+[AOLV5], 46.21, v, 9, smile
+[AOLV5], 46.26, v, 9, smile
+[AOLV5], 48.22, v, 9, smile
+
+
+
+
+[AOLV5END], 48.25, v, 9, smile
+[AOLV5END], 48.30, v, 9, smile
+[AOLV5END], 48.44, v, 9, nod
+
+
+
+
+[TutorialStory], NaN, NaN, NaN, NaN
+
+
+
+
+[TutorialGameplay], 10.03, v, 8, smile
+[TutorialGameplay], 10.58, v, 8, handonchin
+[TutorialGameplay], 11.13, v, 8, smile
+[TutorialGameplay], 11.28, v, 8, nod
+[TutorialGameplay], 11.38, v, 8, shake
+[TutorialGameplay], 11.58, i, 8, dash
+[TutorialGameplay], 12.01, v, 8, smile
+[TutorialGameplay], 12.21, v, 8, shake
+[TutorialGameplay], 12.24, v, 8, smile
+[TutorialGameplay], 12.34, v, 8, smile
+[TutorialGameplay], 12.48, v, 8, eyeclose
+[TutorialGameplay], 13.18, v, 8, handmove
+[TutorialGameplay], 13.18, v, 8, pointing
+[TutorialGameplay], 13.48, v, 8, smile
+[TutorialGameplay], 14.08, v, 8, nod
+[TutorialGameplay], 14.32, v, 8, smile
+[TutorialGameplay], 14.44, v, 8, nod
+[TutorialGameplay], 14.49, v, 8, smile
+[TutorialGameplay], 15.04, v, 8, smile
+[TutorialGameplay], 15.27, v, 8, smile
+[TutorialGameplay], 15.47, v, 8, smile
+[TutorialGameplay], 15.53, v, 8, smile
+
+
+[TutorialEnd], NaN, NaN, NaN, NaN
+
+
+
+
+[BetweenTutorial], 17.14, v, 8, smile
+
+
+
+
+[AVLV1], 19.56, v, 8, smile
+[AVLV1], 20.29, v, 8, smile
+[AVLV1], 20.54, v, 8, smile
+[AVLV1], 21.04, v, 8, smile
+[AVLV1], 21.22, v, 8, smile
+[AVLV1], 21.30, v, 8, smile
+
+
+
+
+[AVLV1END], 22.46, v, 8, smile
+
+
+
+
+[AVLV3], 23.31, v, 8, smile
+[AVLV3], 33.08, v, 8, shake
+[AVLV3], 24.42, v, 8, nod
+[AVLV3], 26.11, v, 8, smile
+
+
+
+
+[AVLV3END], 26.42, v, 8, smile
+[AVLV3END], 26.48, v, 8, shake
+[AVLV3END], 26.58, v, 8, handmove
+[AVLV3END], 27.43, v, 8, smile
+
+
+
+
+[AVLV6], 29.05, v, 8, smile
+[AVLV6], 29.16, v, 8, headback
+[AVLV6], 29.40, v, 8, smile
+[AVLV6], 30.28, v, 8, smile
+[AVLV6], 32.28, v, 8, smile
+
+
+
+
+[AVLV6END], 32.38, v, 8, smile
+[AVLV6END], 33.08, v, 8, nod
+
+
+
+
+[AOLV2], 34.53, v, 8, smile
+[AOLV2], 35.53, v, 8, smile
+[AOLV2], 37.01, v, 8, smile
+[AOLV2], 37.38, v, 8, smile
+[AOLV2], 37.00, v, 8, smile
+
+
+
+
+[AOLV2END], 38.17, v, 8, smile
+[AOLV2END], 39.29, v, 8, smile
+
+
+
+
+[AOLV4], 39.41, v, 8, smile
+[AOLV4], 39.58, v, 8, smile
+[AOLV4], 40.07, v, 8, smile
+[AOLV4], 40.31, v, 8, smile
+[AOLV4], 42.10, v, 8, smile
+[AOLV4], 42.27, v, 8, smile
+
+
+[AOLV4END], NaN, NaN, NaN, NaN
+
+
+
+
+[AOLV5], 44.21, v, 8, smile
+[AOLV5], 44.52, v, 8, smile
+[AOLV5], 45.14, v, 8, smile
+[AOLV5], 45.38, v, 8, smile
+[AOLV5], 45.39, v, 8, nod
+[AOLV5], 46.23, v, 8, smile
+[AOLV5], 46.41, v, 8, smile
+[AOLV5], 47.22, v, 8, smile
+[AOLV5], 47.31, v, 8, smile
+[AOLV5], 48.13, v, 8, smile
+
+
+
+
+[AOLV5END], 48.25, v, 8, smile

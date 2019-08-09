@@ -1,0 +1,183 @@
+[TutorialStory],  5.00, NaN, NaN, NaN
+[TutorialStory], 5.30, NaN, NaN, NaN
+[TutorialStory], 6.00, NaN, NaN, NaN
+[TutorialStory], 6.30, NaN, NaN, NaN
+
+
+
+
+[TutorialGameplay], 6.45, 27, v,  smile
+[TutorialGameplay], 7.15, 27, v,  nod
+[TutorialGameplay], 7.15, 27, v,  smile
+[TutorialGameplay], 7.45, 26, v,  smile
+[TutorialGameplay], 7.45, 27, v,  smile
+[TutorialGameplay], 8.15, 27, v,  smile
+[TutorialGameplay], 8.45, NaN, NaN, NaN
+[TutorialGameplay], 9.15, NaN, NaN, NaN
+[TutorialGameplay], 9.45, NaN, NaN, NaN
+[TutorialGameplay], 10.15, 27, v,  smile
+[TutorialGameplay], 10.15, 27, i,  EMOTE
+[TutorialGameplay], 10.15, 27, i,  EMOTE
+[TutorialGameplay], 10.45, 27, v,  nod
+[TutorialGameplay], 11.15, 27, v,  nod
+[TutorialGameplay], 11.15, 27, v,  smile
+[TutorialGameplay], 11.45, NaN, NaN, NaN
+[TutorialGameplay], 12.15, NaN, NaN, NaN
+[TutorialGameplay], 12.45, NaN, NaN, NaN
+[TutorialGameplay], 13.15, NaN, NaN, NaN
+[TutorialGameplay], 14.15, NaN, NaN, NaN
+[TutorialGameplay], 14.45, NaN, NaN, NaN
+[TutorialGameplay], 15.15, NaN, NaN, NaN
+[TutorialGameplay], 15.45, NaN, NaN, NaN
+
+
+
+
+[BetweenTutorial], 16.15, 26, v,  headshake
+[BetweenTutorial], 16.45, NaN, NaN, NaN
+[BetweenTutorial], 17.15, 27, v,  smile
+[BetweenTutorial], 17.15, 27, v,  thumbsup
+[BetweenTutorial], 17.15, 27, v,  smile
+[BetweenTutorial], 17.45, 26, v,  nod
+[BetweenTutorial], 18.15, 26, v,  headshake
+[BetweenTutorial], 18.15, 26, v,  nod
+[BetweenTutorial], 18.15, 27, v,  nod
+[BetweenTutorial], 18.15, 27, v,  nod
+[BetweenTutorial], 18.15, 27, v,  smile
+[BetweenTutorial], 18.15, 27, v,  nod
+[BetweenTutorial], 18.45, NaN, NaN, NaN
+
+
+
+
+[AOLV1], 19.00, 27, v,  smile
+[AOLV1], 19.30, NaN, NaN, NaN
+[AOLV1], 20.00, 26, v,  smile
+[AOLV1], 20.00, 27, v,  smile
+[AOLV1], 20.30, NaN, NaN, NaN
+[AOLV1], 21.00, NaN, NaN, NaN
+[AOLV1], 21.30, NaN, NaN, NaN
+
+
+
+
+[AOLV1END], 22.00, 27, v,  headshake
+[AOLV1END], 22.30, 26, v, nod
+[AOLV1END], 22.30, 26, v,  nod
+[AOLV1END], 22.30, 26, v,  headshake
+
+
+
+
+[AOLV3], 23.00, 27, v,  smile
+[AOLV3], 23.30, NaN, NaN, NaN
+[AOLV3], 24.00, 27, v,  smile
+[AOLV3], 24.00, 26, v, smile
+[AOLV3], 24.30, 27, v,  smile
+[AOLV3], 25.00, 27, v,  smile
+[AOLV3], 25.30, 27, v,  smile
+[AOLV3], 25.30, 26, v,  smile
+[AOLV3], 26.00, NaN, NaN, NaN
+
+
+
+
+[AOLV3END], 26.15, 27, v,  handmovement
+[AOLV3END], 26.15, 27, v,  smile
+[AOLV3END], 26.15, 26, v,  smile
+[AOLV3END], 26.15, 27, v, smile
+[AOLV3END], 26.15, 27, v,  handmovement
+[AOLV3END], 26.45, 26, v,  smile
+[AOLV3END], 27.15, NaN, NaN, NaN
+
+
+
+
+[AOLV6], 27.30, 27, v,  smile
+[AOLV6], 28.00, 27, i,  EMOTE
+[AOLV6], 28.00, 26, v,  smile
+[AOLV6], 28.00, 27, v,  smile
+[AOLV6], 28.00, 27, i, EMOTE
+[AOLV6], 28.30, 26, v,  smile
+[AOLV6], 28.30, 26, v,  smile
+[AOLV6], 28.30, 26, v,  smile
+[AOLV6], 28.30, 27, v, smile
+[AOLV6], 29.00, NaN, NaN, NaN
+[AOLV6], 29.30, 27, v,  smile
+[AOLV6], 30.00, 27, v,  smile
+[AOLV6], 30.30, NaN, NaN, NaN
+[AOLV6], 31.00, NaN, NaN, NaN
+[AOLV6], 31.30, NaN, NaN, NaN
+
+
+[AOLV6END], 31.45, 26, v, smile
+[AOLV6END], 31.45, 27, v, smile
+[AOLV6END], 31.45, 27, v,  nod
+[AOLV6END], 32.15, 26, v,  headshake
+[AOLV6END], 32.15, 26, v, nod
+
+
+
+
+[AVLV2], 32.30, 27, v,  smile
+[AVLV2], 33.00, NaN, NaN, NaN
+[AVLV2], 33.30, NaN, NaN, NaN
+[AVLV2], 34.00, NaN, NaN NaN
+[AVLV2], 34.30, NaN, NaN, NaN
+[AVLV2], 35.00, NaN, NaN, NaN
+[AVLV2], 35.30, NaN, NaN, NaN
+
+
+[AVLV2END], 36.00, 26, v,  headshake
+[AVLV2END], 36.00, 27, v, nod
+[AVLV2END], 36.00, 26, v,  smile
+[AVLV2END], 36.00, 27, v,  smile
+[AVLV2END], 36.00, 26, v,  nod
+[AVLV2END], 36.30, 26, v,  headshake
+
+
+[AVLV4],  36.45, NaN, NaN, NaN
+[AVLV4], 37.15, 27, v,  smile
+[AVLV4], 37.45, NaN, NaN, NaN
+[AVLV4], 38.15, NaN, NaN, NaN
+[AVLV4], 38.45, NaN, NaN, NaN
+[AVLV4], 39.15, NaN, NaN, NaN
+[AVLV4], 39.45, 27, v, nod
+[AVLV4], 39.45, 26, v,  smile
+[AVLV4], 39.45, 27, v, smile
+[AVLV4], 40.15, NaN, NaN, NaN
+
+
+
+
+[AVLV4END], 40.30, 27, v,  smile
+[AVLV4END], 40.30, 26, v,  smile
+[AVLV4END], 40.30, 27, v,  smile
+[AVLV4END], 40.30, 26, v,  smile
+[AVLV4END], 40.30, 26, v,  headshake
+[AVLV4END], 40.30, 26, v, nod
+
+
+[AVLV5],  41.30, NaN, NaN, NaN
+[AVLV5], 42.00, 27, v,  smile
+[AVLV5], 42.00, 26, v,  smile
+[AVLV5], 42.30, NaN, NaN, NaN
+[AVLV5], 43.00, 27, v,  smile
+[AVLV5], 43.00, 26, v,  smile
+[AVLV5], 43.30, NaN, NaN, NaN
+[AVLV5], 44.00, 27, v,  smile
+[AVLV5], 44.00, 26, v,  smile
+[AVLV5], 44.30, 27, v,  smile
+[AVLV5], 44.30, 26, v, smile
+[AVLV5], 45.00, 27, v,  smile
+[AVLV5], 45.00, 26, v,  smile
+[AVLV5], 45.00, 26, v, smile
+[AVLV5], 45.00, 27, v,  smile
+[AVLV5], 45.00, 26, v,  smile
+[AVLV5], 45.00, 27, v,  smile
+[AVLV5], 45.30, NaN, NaN, NaN
+[AVLV5], 46.00, NaN, NaN, NaN
+[AVLV5], 46.30, 27, v,  nod
+
+
+[AVLV6END], 46.45, NaN, NaN, NaN
