@@ -1,0 +1,43 @@
+% nodmag.m
+% 07/12/19 - ryan pili
+%
+% script to take in a starting time and duration across which to measure
+% changes in pitch, yaw, and roll in the csv output of OpenFace. For ONE
+% nod or headshake.
+% i.e. measures the distance travelled or angle travelled in each axis.
+%
+% [dpitch, dyaw, droll] = nodmag(onset, duration)
+% input:
+%       onset    = the second where a single head movement begins (or slightly
+%       before)
+%       duration = how many seconds the head movement lasts
+% output:
+%       dpitch = distance / angle travelled in pitch 
+%       dyaw   = distance / angle travelled in yaw
+%       droll  = distance / angle travelled in roll 
+
+clearvars -except data
+
+% data = readtable('/home/ryan/GS/CECLAB/vgcmd/dataanalysis/ofcsv/test/vg08.csv', 'Delimiter', ',');
+Rx = data.pose_Rx;
+Ry = data.pose_Ry;
+Rz = data.pose_Rz;
+onset = 1718;
+onset = ttf(onset, 30);
+duration = 1.5;
+offset = onset + ttf(1.5, 30);
+
+dx = 0;
+dy = 0;
+dz = 0;
+
+for frame = onset:offset
+    if frame == onset
+        dx = Rx(frame);
+    elseif frame > onset
+        dx = dx + Rx(frame)
+   
+end
+
+
+
