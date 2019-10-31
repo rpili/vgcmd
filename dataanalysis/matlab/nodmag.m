@@ -1,5 +1,5 @@
 % nodmag.m
-% 07/12/19 - ryan pili
+% 08/12/19 - ryan pili
 %
 % script to take in a starting time and duration across which to measure
 % changes in pitch, yaw, and roll in the csv output of OpenFace. For ONE
@@ -16,11 +16,11 @@
 %       dyaw   = distance / angle travelled in yaw
 %       droll  = distance / angle travelled in roll 
 
-function [dx, dy, dz] = nodmag(onset, duration)
+function [dx, dy, dz] = nodmag(onset, duration, data)
 
 % clearvars -except data
 
-data = readtable('/home/ryan/GS/CECLAB/vgcmd/dataanalysis/ofcsv/test/vg08.csv', 'Delimiter', ',');
+% data = readtable('/home/ryan/GS/CECLAB/vgcmd/dataanalysis/ofcsv/vg08.csv', 'Delimiter', ',');
 Rx = data.pose_Rx;
 Ry = data.pose_Ry;
 Rz = data.pose_Rz;

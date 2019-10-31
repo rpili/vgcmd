@@ -1,5 +1,5 @@
 % ttf.m
-% 07/12/19 - ryan pili
+% 08/12/19 - ryan pili
 %
 % time to frame 
 % given an amount of time, gives the number of frames
