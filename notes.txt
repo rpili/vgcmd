@@ -1,3 +1,11 @@
+/dataanalysis/transcription/parse.py
+	takes in a .txt file from /transcription/textfiles/
+	this .txt file is a transcription with both participants, cut up by level and condition
+	the backchannels are marked with asterisks
+	it counts all the asterisks and doles them out to each condition x level
+	then it writes this as a new line on a csv
+/dataanalysis/matlab/
+
 05/11/19 - RP
 starting running notes for VGCMD
 just downloaded drivers for 408Ewin's AMD driver from https://www.amd.com/en/support
